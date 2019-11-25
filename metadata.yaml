@@ -1,6 +1,6 @@
 homepage: "https://datalitica.es/"
 documentation: "https://datalitica.es/gtm-variable-personalizada-control-de-fecha-inicio-y-fin/"
-versions:Update template.tpl
+versions:
   # Latest version
   - sha: 4c849300279fb5b30c09be9023a0993dbb7da80d
     changeNotes: Update template.tpl
