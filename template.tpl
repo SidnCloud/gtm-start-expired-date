@@ -14,11 +14,14 @@ ___INFO___
   "version": 1,
   "securityGroups": [],
   "displayName": "Start-Expired Date",
-  "description": "Control to check if the date setted is expired or valid",
+  "description": "Control to check if the date setted is expired or valid (by SIDN)",
   "categories": ["UTILITY"],
   "containerContexts": [
     "WEB"
-  ]
+  ],
+  "brand": {
+    "displayName": "Start-Expired Date"
+  }
 }
 
 
