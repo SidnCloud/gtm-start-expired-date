@@ -1,4 +1,4 @@
-___TERMS_OF_SERVICE___
+﻿___TERMS_OF_SERVICE___
 
 By creating or modifying this file you agree to Google Tag Manager's Community
 Template Gallery Developer Terms of Service available at
@@ -15,7 +15,6 @@ ___INFO___
   "securityGroups": [],
   "displayName": "Start-Expired Date",
   "description": "Activate variable when the date is valid or expired.",
-  "categories": ["UTILITY"],
   "containerContexts": [
     "WEB"
   ]
@@ -117,12 +116,32 @@ return res;
 
 ___TESTS___
 
-scenarios: []
+scenarios:
+- name: Validación - En vigor
+  code: |-
+    // Call runCode to run the template's code.
+    data.fecha_control="2019-11-11";
+    data.fecha_actual="2019-30-11";
+    data.control="inicio";
+    let variableResult = runCode();
+
+    // Verify that the variable returns a result.
+    assertThat(variableResult).isNotEqualTo("true");
+- name: Validación - Caducado
+  code: |-
+    // Call runCode to run the template's code.
+    data.fecha_control="2019-11-11";
+    data.fecha_actual="2019-30-11";
+    data.control="inicio";
+    let variableResult = runCode();
+
+    // Verify that the variable returns a result.
+    assertThat(variableResult).isNotEqualTo("false");
 setup: ''
 
 
 ___NOTES___
 
-Created on 25/11/2019 1:55:31
+Created on 25/11/2019 12:26:44
 
 
