@@ -2,5 +2,5 @@ homepage: "https://www.sidn.es/"
 documentation: "https://datalitica.es/gtm-variable-personalizada-control-de-fecha-inicio-y-fin/"
 versions:
   # Latest version
-  - sha: 
+  - sha: d6fbef4f9e5ddcb07501624196bb1e96ac85ea43
     changeNotes: Initial release.
