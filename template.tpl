@@ -14,6 +14,7 @@ ___INFO___
   "version": 1,
   "securityGroups": [],
   "displayName": "Start-Expired Date",
+  "categories": ["UTILITY","TAG_MANAGEMENT"],
   "description": "Activate variable when the date is valid or expired.",
   "containerContexts": [
     "WEB"
