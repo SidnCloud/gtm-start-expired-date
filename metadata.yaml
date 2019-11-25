@@ -2,8 +2,10 @@ homepage: "https://datalitica.es/"
 documentation: "https://datalitica.es/gtm-variable-personalizada-control-de-fecha-inicio-y-fin/"
 versions:
   # Latest version
-  - sha: 0819501bc2648000ed0baf3517384778e63c7fd9
+  - sha: 4c849300279fb5b30c09be9023a0993dbb7da80d
     changeNotes: Update metadata doc with SHA.
   # Older version
+  - sha: 0819501bc2648000ed0baf3517384778e63c7fd9
+    changeNotes: Update metadata doc with SHA.
   - sha: d6fbef4f9e5ddcb07501624196bb1e96ac85ea43
     changeNotes: Initial release.
